@@ -85,6 +85,7 @@ public interface Worker {
     /**
      * Override this method to change the interval between polls.
      *
+     *
      * @return interval in millisecond at which the server should be polled for worker tasks.
      */
     default int getPollingInterval() {
